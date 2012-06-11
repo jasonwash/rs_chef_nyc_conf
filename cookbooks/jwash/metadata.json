@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "rs_utils": ">= 0.0.0"
   },
   "name": "jwash",
   "maintainer_email": "jasonwash@gmail.com",
@@ -16,7 +17,7 @@
   "recommendations": {
   },
   "recipes": {
-    "jwash::default": "Prints Hello World! to the logs"
+    "jwash::default": "Prints interesting stuff based on node inputs."
   },
   "groupings": {
   },

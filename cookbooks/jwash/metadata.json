@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+  },
+  "name": "jwash",
+  "maintainer_email": "jasonwash@gmail.com",
+  "attributes": {
+  },
+  "license": "All rights reserved",
+  "suggestions": {
+  },
+  "platforms": {
+  },
+  "maintainer": "Jason M. Wash",
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "version": "0.0.1",
+  "recommendations": {
+  },
+  "recipes": {
+    "jwash::default": "Prints Hello World! to the logs"
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Installs/Configures jwash",
+  "providing": {
+  }
+}

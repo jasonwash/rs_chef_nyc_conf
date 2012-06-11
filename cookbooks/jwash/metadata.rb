@@ -9,3 +9,9 @@ depends "rs_utils"
 
 recipe "jwash::default","Prints interesting stuff based on node inputs."
 
+attribute "about_me/first_name",
+  :required => "required",
+  :display_name => "First Name",
+  :description => "Sufficiently described",
+  :recipes => ["jwash::default"]
+

@@ -17,6 +17,51 @@
       ],
       "display_name": "First Name",
       "description": "Sufficiently described"
+    },
+    "about_me/favorite/drink": {
+      "required": "optional",
+      "calculated": false,
+      "category": "Favorites",
+      "choice": [
+
+      ],
+      "default": "Diet Coke",
+      "type": "string",
+      "recipes": [
+        "jwash::default"
+      ],
+      "display_name": "Favorite Drink",
+      "description": "Your favorite drink"
+    },
+    "about_me/favorite/food": {
+      "required": "optional",
+      "calculated": false,
+      "category": "Favorites",
+      "choice": [
+
+      ],
+      "default": "french fries",
+      "type": "string",
+      "recipes": [
+        "jwash::default"
+      ],
+      "display_name": "Favorite Food",
+      "description": "Your favorite food"
+    },
+    "about_me/favorite/hobby": {
+      "required": "optional",
+      "calculated": false,
+      "category": "Favorites",
+      "choice": [
+
+      ],
+      "default": "MMORPGs",
+      "type": "string",
+      "recipes": [
+        "jwash::default"
+      ],
+      "display_name": "Favorite hobby",
+      "description": "Your Favorite hobby"
     }
   },
   "license": "All rights reserved",

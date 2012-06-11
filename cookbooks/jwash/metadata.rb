@@ -15,3 +15,27 @@ attribute "about_me/first_name",
   :description => "Sufficiently described",
   :recipes => ["jwash::default"]
 
+attribute "about_me/favorite/food",
+  :required => "optional",    # default is optional
+  :display_name => "Favorite Food",
+  :description => "Your favorite food",
+  :category => "Favorites",
+  :default => "french fries",
+  :recipes => ["jwash::default"]
+
+attribute "about_me/favorite/drink",
+  :required => "optional",
+  :display_name => "Favorite Drink",
+  :description => "Your favorite drink",
+  :category => "Favorites",
+  :default => "Diet Coke",
+  :recipes => ["jwash::default"]
+
+attribute "about_me/favorite/hobby",
+  :required => "optional",
+  :display_name => "Favorite hobby",
+  :description => "Your Favorite hobby",
+  :category => "Favorites",
+  :default => "MMORPGs",
+  :recipes => ["jwash::default"]
+
